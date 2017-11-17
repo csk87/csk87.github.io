@@ -1,0 +1,31 @@
+/* PROJECT */
+
+	Site Name:   Caspers Website
+	Site URL:    https://ck22re-website-csk87.c9users.io
+	Created:     2017/11/17
+	Standards:   HTML5, CSS3, SASS
+	Software:    Jekyll
+    Web Design:  customized minima theme
+
+/* AUTHOR */
+
+	Name:        Casper Karlsson
+	Nickname:    ck222re, csk87
+	Title:       Student
+	Location:    Stockholm, Sweden
+	Site:        https://cskmedia.se
+	Site:        https://ck22re-website-csk87.c9users.io
+	Blog:        https://ck22re-website-csk87.c9users.io/blogg/
+	Contact:     https://ck22re-website-csk87.c9users.io/om-mig/
+	
+
+/* SOCIAL */
+    
+	Twitter:     https://twitter.com/csk_media
+    Facebook:    https://www.facebook.com/casper.c.karlsson.9
+	Instagram:   https://www.instagram.com/casperkarlsson/
+	
+
+/* META */
+
+	Built with: Jekyll, HTML, CSS, JavaScript
