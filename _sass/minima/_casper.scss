@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*List styling*/
+
+ul {
+ 
+  list-style-type: none;
+  margin-left:$zero-px;
+  
+ li { 
+  padding: $zero-px;
+  margin: $zero-px;
+ }
+ 
+}
+
+
+
+/*Sidebar*/
+
+.sidebar {
+
+ padding-left:$spacing-unit;
+ margin-left:$spacing-unit;
+ border-left: 1px solid $bg-gray;
+ 
+ 
+  ul li{
+   border-bottom: 1px solid $bg-gray;
+   padding:$spacing-unit;
+  }
+ 
+ 
+ 
+}
+
+
+
+/* Columns*/  
+ 
+ .columns {
+   
+   
+   .col{
+   
+   float: left;
+    width: 50%; 
+   
+   }
+   
+   .col-70{
+    
+    float: left;
+    width:70%;
+    
+   }
+   
+   
+   .col-30{
+    
+    float: left;
+    width:30%;
+    
+   }
+ 
+ 
+  
+ } 
+ 
+ .columns:after{
+     
+    content:"";
+    display: table;
+    clear: both;
+ }

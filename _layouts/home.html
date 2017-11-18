@@ -1,15 +1,26 @@
 ---
 layout: default
+
 ---
 
 <div class="home">
-
-  {{ content }}
-
-  <h1 class="page-heading">Här är min första Jekyll webbplats </h1>
-  
-  <h3> Wow här kan man lägga innehållet som skall synas på förstasidan!</h3>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  <div class="columns">  
+    <div class="col-70">
+      <h2>Min Jekyllsite</h2>
+      
+      <br>
+      <p>Innehåll</p>
+    </div>
+    
+    <div class="col-30">
+    <div class="sidebar">
+    <h2>Blogginlägg</h2>
+      <ul>
+        {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div><!--/ sidebar -->  
+    </div>
+  </div>
 </div>

@@ -10,18 +10,6 @@ dl, dd, ol, ul, figure {
 
 
 /**
-* HTML 
-*/
-
-
-html{
-  
-  height: 100%;
-  box-sizing: border-box;
-  
-}
-
-/**
  * Basic styling
  */
 body {
@@ -34,9 +22,9 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 155px;
+  //min-height: 100%;
+  //position: relative;
+ // padding-bottom: 155px;
 }
 
 
@@ -59,6 +47,14 @@ ul, ol, dl, figure,
 img {
   max-width: 100%;
   vertical-align: middle;
+}
+
+.img-responsive{
+  
+  max-width: 100%;
+  height: auto;
+  display:block;
+  
 }
 
 
@@ -227,7 +223,6 @@ pre {
     padding-top: 5px;
   }
 }
-
 
 
 /**

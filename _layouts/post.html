@@ -16,7 +16,11 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {{ content }}
+    
+     <img src="{{ page.img | prepend: site.baseurl }}" alt="image">
+     <br>
+   {{ content }}
+    
   </div>
   
   <div id="disqus_thread"></div>

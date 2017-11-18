@@ -6,7 +6,6 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   background:$bg-gray;
-
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -109,19 +108,11 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
-  background: $bg-black;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
-  color: $grey-color;
 }
 
 .contact-list,

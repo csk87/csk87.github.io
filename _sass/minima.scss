@@ -1,15 +1,20 @@
 @charset "utf-8";
 
 
-//Caspers variables
+// Caspers variables
 
-//backgrounds
+// backgrounds
 $background-color: #fff !default;
 $bg-gray:  #e6e6e6 !default;
 $bg-black: #151515;
 
+// pixels for ex margin & padding
+$zero-px: 0px;
+
+
 //links
 $brand-color: #ff5335 !default;
+$link-color: #fff !default;
 
 // Define defaults for each variable.
 
@@ -19,7 +24,7 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     15px !default;
 
 $text-color:       #111 !default;
 
@@ -55,6 +60,7 @@ $on-laptop:        800px !default;
 // Import partials.
 @import
   "minima/base",
+  "minima/casper",
   "minima/layout",
   "minima/syntax-highlighting"
 ;
