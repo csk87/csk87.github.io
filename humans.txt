@@ -16,7 +16,7 @@
 	Site:        https://cskmedia.se
 	Site:        https://ck22re-website-csk87.c9users.io
 	Blog:        https://ck22re-website-csk87.c9users.io/blogg/
-	Contact:     https://ck22re-website-csk87.c9users.io/om-mig/
+	
 	
 
 /* SOCIAL */

@@ -17,7 +17,11 @@ ul {
  
 }
 
+/*border-right*/
 
+.border-right{
+  border-right: 1px solid $bg-gray;
+}
 
 /*Sidebar*/
 
@@ -25,7 +29,6 @@ ul {
 
  padding-left:$spacing-unit;
  margin-left:$spacing-unit;
- border-left: 1px solid $bg-gray;
  
  
   ul li{
